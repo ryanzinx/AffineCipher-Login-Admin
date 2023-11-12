@@ -1,0 +1,33 @@
+body,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+footer {
+  padding: 1rem;
+}
+
+.container {
+  min-height: 100vh; /* Set minimum height to full viewport height */
+  background: linear-gradient(
+    to bottom,
+    #87ceeb,
+    #ffffff
+  ); /* Gradient from light blue to white */
+  position: relative; /* Set relative position */
+}
+.container-fluid {
+  min-height: calc(
+    100vh - 56px
+  ); /* Adjust 56px based on your actual navbar height */
+  background: linear-gradient(to bottom, #87ceeb, #ffffff);
+  position: relative;
+}
+
